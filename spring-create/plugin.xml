@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Spring Wizards"
+            id="spring-create">
+      </category>
+      <!-- 
+      <wizard
+            category="spring-create"
+            class="springcreate.wizards.SpringNewWizard"
+            icon="icons/sample.gif"
+            id="springcreate.wizards.SpringNewWizard"
+            name="Multi-page Editor file"
+            project="true">
+      </wizard>
+     -->
+      <wizard
+            category="spring-create"
+            class="springcreate.wizards.SpringProjectWizard"
+            icon="icons/sample.gif"
+            id="spring-create.wizard"
+            name="Spring Project"
+            project="true"/>
+      <wizard
+            category="spring-create"
+            class="springcreate.wizards.SpringMvcProjectWizard"
+            icon="icons/sample.gif"
+            id="spring-mvc-create.wizard"
+            name="Spring Mvc Project"
+            project="true"/>
+      <wizard
+            category="spring-create"
+            class="springcreate.wizards.SpringMvcJPAProjectWizard"
+            icon="icons/sample.gif"
+            id="spring-mvc-jpa-create.wizard"
+            name="Spring Mvc Project(JPA)"
+            project="true"/>            
+   </extension>
+
+</plugin>

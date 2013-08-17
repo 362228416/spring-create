@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="resourceNotFound" template="/WEB-INF/pages/resourceNotFound.jsp"></definition>
+	
+	<definition name="uncaughtException" template="/WEB-INF/pages/uncaughtException.jsp"></definition>
+
+</tiles-definitions>

@@ -1,0 +1,10 @@
+public class AppTest {
+	App app;
+	
+	@Before
+	public void setUp() {
+		app = new App();
+	}
+	
+	
+}
